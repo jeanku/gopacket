@@ -7,6 +7,6 @@ func SayHi(name string) string {
 	return fmt.Sprintf("Hi, %s", name)
 }
 
-func Where(id string, value srting) {
-	println("call where")
+func Where(id string, value string) {
+	println("call where", id, value)
 }
